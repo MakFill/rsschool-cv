@@ -15,8 +15,11 @@
 
 .avatar-img {
   position: absolute;
+  top: 4%;
   left: 35%;
-  width: 30%;
+  width: 45%;
+  max-width: 210px;
+  height: auto;
 }
 
 .contacts,
