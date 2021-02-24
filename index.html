@@ -10,10 +10,10 @@
   </head>
   <body>
     <div class="container">
-      <div class="avatar">
+      <figure class="avatar">
         <img class="avatar-img" src="ava.jpg" alt="Avatar-photo" />
-      </div>
-      <div class="contacts">
+      </figure>
+      <header class="contacts">
         <h1>Contacts:</h1>
         <hr />
         <ul>
@@ -25,54 +25,73 @@
             </a>
           </li>
         </ul>
-      </div>
-      <div class="profile">
-        <h1>Professional profile:</h1>
-        <hr />
-        <ul>
-          <li>5 years of experience as a railway communications technician.</li>
-          <li>
-            My goal is to change my profession and realize my potential by
-            becoming an IT developer in a promising direction like js-frontend
-            or js-backand. I can quickly assimilate new information and apply
-            the acquired skills in practice, I am purposeful and constantly
-            self-study.
-          </li>
-        </ul>
-      </div>
-      <div class="skills">
-        <h1>Technical skills:</h1>
-        <hr />
-        <ul>
-          <li>Basic knowledge in <b>html, css, js, git</b>.</li>
-        </ul>
-      </div>
-      <div class="code">
-        <h1>Code examples:</h1>
-        <hr />
-        <pre>
-          function findShort(s) { 
-            return s.split(' ').map(x => +x.length).sort((a,b) => a - b)[0] 
-          }
-        </pre>
-      </div>
-      <div class="education">
-        <h1>Education:</h1>
-        <hr />
-        <ul>
-          <li>
-            Belarusian State University of Transport (2009 - 2014).
-            <b>Specialty</b> electrical engineer.
-          </li>
-        </ul>
-      </div>
-      <div class="eng-level">
+      </header>
+      <main>
+        <section class="profile">
+          <h1>Professional profile:</h1>
+          <hr />
+          <ul>
+            <li>
+              <h2>Experience:</h2>
+              <p>
+                5 years of experience as a railway communications technician.
+              </p>
+            </li>
+            <li>
+              <h3>Purpose:</h3>
+              <p>
+                My purpose is to change my profession and realize my potential
+                by becoming an IT developer in a promising direction like
+                js-frontend or js-backand.
+              </p>
+            </li>
+            <li>
+              <h4>Learning skills:</h4>
+              <p>
+                I can quickly assimilate new information and apply the acquired
+                skills in practice, I am purposeful and constantly self-study.
+              </p>
+            </li>
+            <li>
+              <h5>Location for work:</h5>
+              <p>Any, including relocate.</p>
+            </li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h1>Technical skills:</h1>
+          <hr />
+          <ul>
+            <li>Basic knowledge in <strong>html, css, js, git</strong>.</li>
+          </ul>
+        </section>
+        <section class="code">
+          <h1>Code examples:</h1>
+          <hr />
+          <pre>
+            function findShort(s) { 
+              return s.split(' ').map(x => +x.length).sort((a,b) => a - b)[0] 
+            }
+          </pre>
+        </section>
+        <section class="education">
+          <h1>Education:</h1>
+          <hr />
+          <ul>
+            <li>
+              Belarusian State University of Transport (2009 - 2014).
+              <strong>Specialty - electrical engineer.</strong>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="eng-level">
         <h1>English level:</h1>
         <hr />
         <ul>
           <li>Pre-Intermediate.</li>
         </ul>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
